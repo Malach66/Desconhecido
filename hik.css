@@ -1,0 +1,63 @@
+
+body{
+  background-color: black;
+  text-align: center;
+}
+
+h1{color: #2480FF;
+  font-size:30px;
+  text-align:center;
+  height:15px;
+}
+h2{color: white;
+  font-size:20px;
+  text-align: center;
+  height:25px;
+}
+
+
+p{color:white;
+text-align: center;
+padding: 20px;
+background-color: #2480FF;width: 330px;
+background-position:center;
+font-family:arial;
+border-radius:20px;
+}
+
+img{
+  width: 140px; /*largura*/
+  border: 5px solid white;
+  border-radius:10px;
+  height: 140px;
+}
+
+
+audio {
+    width: 100%;
+    background-color: #333; /* Cor de fundo do player */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Muda a cor do botão de play e outros controles (Chrome e Edge) */
+audio::-webkit-media-controls-panel {
+    background-color: white;
+}
+
+/* Muda a cor dos botões (Chrome e Edge) */
+audio::-webkit-media-controls-play-button {
+    background-color: #2480FF;
+    border-radius: 50%;
+}
+
+/* Barra de progresso */
+audio::-webkit-media-controls-timeline {
+    background-color: white;
+}
+
+/* Volume */
+audio::-webkit-media-controls-volume-slider {
+    background-color: #2480FF;
+    
+}
+
